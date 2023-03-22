@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Boss">
+      <UniqueIdentifier>{44f21eaf-8735-4d7b-9000-e95757caac0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{aa114ad0-ce21-4f6d-ad98-712a8b1501d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common_enermy">
+      <UniqueIdentifier>{b599df16-e7a5-477a-b2c3-700f3b5de332}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boss.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="COBADV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="total.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common_enermy.h">
+      <Filter>common_enermy</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_function.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_act.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="play_function.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Play_act.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Play_pec.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="fight_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common_enermy_function.cpp">
+      <Filter>common_enermy</Filter>
+    </ClCompile>
+    <ClCompile Include="commom_enermy_act.cpp">
+      <Filter>common_enermy</Filter>
+    </ClCompile>
+    <ClCompile Include="textfile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="功能性函数.cpp">
+      <Filter>源文件\资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fight_with_com_enem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="随机遇敌.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="COB%27s Advanture.rc">
+      <Filter>源文件\资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="damotouicon.ico">
+      <Filter>源文件\资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
